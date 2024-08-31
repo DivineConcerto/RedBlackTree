@@ -11,6 +11,7 @@
 		DC0681182C83396E000FA585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0681172C83396E000FA585 /* ContentView.swift */; };
 		DC06811A2C83396F000FA585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0681192C83396F000FA585 /* Assets.xcassets */; };
 		DC06811D2C83396F000FA585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC06811C2C83396F000FA585 /* Preview Assets.xcassets */; };
+		DC0681252C833988000FA585 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0681242C833988000FA585 /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DC0681192C83396F000FA585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC06811C2C83396F000FA585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC06811E2C83396F000FA585 /* RedBlackTree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RedBlackTree.entitlements; sourceTree = "<group>"; };
+		DC0681242C833988000FA585 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				DC0681152C83396E000FA585 /* RedBlackTreeApp.swift */,
 				DC0681172C83396E000FA585 /* ContentView.swift */,
+				DC0681242C833988000FA585 /* GameModel.swift */,
 				DC0681192C83396F000FA585 /* Assets.xcassets */,
 				DC06811E2C83396F000FA585 /* RedBlackTree.entitlements */,
 				DC06811B2C83396F000FA585 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				DC0681182C83396E000FA585 /* ContentView.swift in Sources */,
 				DC0681162C83396E000FA585 /* RedBlackTreeApp.swift in Sources */,
+				DC0681252C833988000FA585 /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RedBlackTree/RedBlackTree.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -298,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RedBlackTree/RedBlackTree.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
